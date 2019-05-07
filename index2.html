@@ -1,0 +1,22 @@
+<html id="myLink">
+  <head>
+    <link rel="stylesheet" type="text/css" href="CSS/main.css" />
+  </head>
+  <body>
+    <div class="sourceButtons" id="sourcesButtons">
+      <img class="SourceTitle" src="IMGS/SourceGuideTitle.svg" />
+      <a href="menu.html">
+        <img class="BeginButton" src="IMGS/BeginButton.svg" onclick=""/>
+      </a>
+    </div>
+    <script>
+      window.onbeforeunload = function (e) {
+
+        document.getElementById('myLink').className = 'out';
+        setTimeout(function(){
+          document.getElementById('myLink').className = '';
+        }, 2000);
+      }
+    </script>
+  </body>
+</html>

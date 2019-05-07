@@ -1,0 +1,272 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  left: 0px;
+  top: 0px;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+svg {
+  position: absolute;
+  width: 320px;
+}
+path {
+  fill: none;
+  stroke: url(#linearGradient);;
+  stroke-width: 4;
+  stroke-dasharray: 240 1386;
+}
+/*pages*/
+.page1{
+  position: fixed;
+  display: inline-block;
+  height: 100%;
+  width: 100vw;
+  background-color: rgba(50,50,50,1);
+  top: 0px;
+  left: 0px;
+}
+.page2{
+  position: fixed;
+  display: inline-block;
+  height: 100%;
+  width: 100vw;
+  background-color: rgba(50,50,50,1);
+  top: 0px;
+  left: 0px;
+}
+.page3{
+  position: fixed;
+  display: inline-block;
+  height: 100%;
+  width: 100vw;
+  background-color: rgba(50,50,50,1);
+  top: 0px;
+  left: 0px;
+}
+.page4{
+  position: fixed;
+  display: inline-block;
+  height: 100%;
+  width: 100vw;
+  background-color: rgba(50,50,50,0);
+  top: 0px;
+  left: 0px;
+}
+.page5{
+  position: fixed;
+  display: inline-block;
+  height: 100%;
+  width: 100vw;
+  background-color: rgba(50,50,50,0);
+  top: 0px;
+  left: 0px;
+}
+.page6{
+  position: fixed;
+  display: inline-block;
+  height: 100%;
+  width: 100vw;
+  background-color: rgba(50,50,50,0);
+  top: 0px;
+  left: 0px;
+}
+
+/*  page1 stuff  */
+.SourceTitle{
+  background-image: url("/IMGS/SourceGuideTitle.svg");
+  width: 80vw;
+  height: 50%;
+  background-size: contain;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 0vh;
+  left: 10vw;
+}
+.BeginButton{
+  background-image: url("/IMGS/BeginButton.svg");
+  width: 80vw;
+  height: 50%;
+  background-position: center top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 10vw;
+}
+.page1container{
+  position: relative;
+  height: 90vh;
+  top: 5vh;
+}
+
+/*  page2 stuff  */
+.EvaluatingButton{
+  background-image: url("/IMGS/EvaluatingSources.svg");
+  width: 80vw;
+  height: 30vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 10vw;
+}
+.SelectButton{
+  background-image: url("/IMGS/SelectingSources.svg");
+  width: 80vw;
+  height: 30vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 10vw;
+}
+.WritingButton{
+  background-image: url("/IMGS/WritingProcess.svg");
+  width: 80vw;
+  height: 30vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 10vw;
+}
+.instructionsParagraph{
+  width: 60vw;
+  left: 20vw;
+  position: relative;
+  font-size: 2vw;
+  text-align: center;
+  color: rgba(200,200,200,1);
+}
+.clickHere{
+  background-image: url("/IMGS/ClickHere.svg");
+  width: 15vw;
+  height: 15vw;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 80vw;
+}
+.page2container{
+  position: relative;
+  height: 90vh;
+  top: 5vh;
+}
+
+/*  page3 stuff  */
+.sourceResearch{
+  background-image: url("/IMGS/SourceResearch.svg");
+  width: 80vw;
+  height: 30vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 10vw;
+}
+.sourceSeparator{
+  background-image: url("/IMGS/sourceseparator.svg");
+  width: 80vw;
+  height: 30vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 10vw;
+
+}
+.evaluatingSources{
+  background-image: url("/IMGS/evalsources.svg");
+  width: 80vw;
+  height: 30vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 10vw;
+}
+
+/* page4 stuff */
+.paperResearch{
+  background-image: url("/IMGS/notebookSourceResearch.svg");
+  width: 90vw;
+  height: 90vh;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 5vw;
+  top: 5vh;
+}
+
+/* Page5 stuff */
+.paperEvaluating{
+  background-image: url("/IMGS/notebookEvaluatingSources.svg");
+  width: 90vw;
+  height: 90vh;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 5vw;
+  top: 5vh;
+}
+.paperEvaluating2{
+  background-image: url("/IMGS/notebookEvaluatingSources.svg");
+  width: 90vw;
+  height: 90vh;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 5vw;
+  top: 5vh;
+}
+
+/* Arrows */
+.arrowDown{
+  background-image: url("/IMGS/downArrow.svg");
+  width: 49.5vw;
+  height: 10vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+}
+.arrowRight{
+  background-image: url("/IMGS/rightArrow.svg");
+  width: 30vw;
+  height: 10vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  left: 70vw;
+  bottom: 5vh;
+}
+.arrowUp{
+  background-image: url("/IMGS/upArrow.svg");
+  width: 49.5vw;
+  height: 10vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+}
+.arrowLeft{
+  background-image: url("/IMGS/leftArrow.svg");
+  width: 49.5vw;
+  height: 10vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+}

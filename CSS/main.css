@@ -1,0 +1,1035 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  left: 0px;
+  top: 0px;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+svg {
+  position: absolute;
+  width: 320px;
+}
+path {
+  fill: none;
+  stroke: url(#linearGradient);;
+  stroke-width: 4;
+  stroke-dasharray: 240 1386;
+}
+.hidden{
+  opacity: 0.0;
+  z-index: -1
+}
+
+/*navs*/
+.nav10{
+  background-image: url("../IMGS/nav/1.0.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50vw;
+  left: 25vw;
+  position: absolute;
+  bottom: 0vh;
+  height: 10vh;
+}
+.nav11{
+  background-image: url("../IMGS/nav/1.1.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 40vw;
+  left: 30vw;
+  position: absolute;
+  bottom: 0vh;
+  height: 10vh;
+}
+.nav12{
+  background-image: url("../IMGS/nav/1.2.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 40vw;
+  left: 30vw;
+  position: absolute;
+  bottom: 0vh;
+  height: 10vh;
+}
+.nav13{
+  background-image: url("../IMGS/nav/1.3.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 40vw;
+  left: 30vw;
+  position: absolute;
+  bottom: 0vh;
+  height: 10vh;
+}
+.nav20{
+  background-image: url("../IMGS/nav/2.0.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 40vw;
+  left: 30vw;
+  position: absolute;
+  bottom: 0vh;
+  height: 10vh;
+}
+.nav21{
+  background-image: url("../IMGS/nav/2.1.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 40vw;
+  left: 30vw;
+  position: absolute;
+  bottom: 0vh;
+  height: 10vh;
+}
+.nav22{
+  background-image: url("../IMGS/nav/2.2.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 40vw;
+  left: 30vw;
+  position: absolute;
+  bottom: 0vh;
+  height: 10vh;
+}
+.nav30{
+  background-image: url("../IMGS/nav/3.0.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 40vw;
+  left: 30vw;
+  position: absolute;
+  bottom: 0vh;
+  height: 10vh;
+}
+
+/*pages*/
+.page1{
+  position: fixed;
+  display: inline-block;
+  height: 100%;
+  width: 100vw;
+  background-color: rgba(50,50,50,1);
+  top: 0px;
+  left: 0px;
+}
+.page2{
+  position: fixed;
+  display: inline-block;
+  height: 100%;
+  width: 100vw;
+  background-color: rgba(50,50,50,1);
+  top: 0px;
+  left: 0px;
+}
+.page3{
+  position: fixed;
+  display: inline-block;
+  height: 100%;
+  width: 100vw;
+  background-color: rgba(50,50,50,1);
+  top: 0px;
+  left: 0px;
+}
+.page4{
+  position: fixed;
+  display: inline-block;
+  height: 100%;
+  width: 100vw;
+  background-color: rgba(50,50,50,1);
+  top: 0px;
+  left: 0px;
+}
+.page5{
+  position: fixed;
+  display: inline-block;
+  height: 100%;
+  width: 100vw;
+  background-color: rgba(50,50,50,1);
+  top: 0px;
+  left: 0px;
+}
+.page6{
+  position: fixed;
+  display: inline-block;
+  height: 100%;
+  width: 100vw;
+  background-color: rgba(50,50,50,1);
+  top: 0px;
+  left: 0px;
+  text-align:center;
+}
+.page7{
+  position: fixed;
+  display: inline-block;
+  height: 100%;
+  width: 100vw;
+  background-color: rgba(50,50,50,1);
+  top: 0px;
+  left: 0px;
+}
+.page8{
+  position: fixed;
+  display: inline-block;
+  height: 100%;
+  width: 100vw;
+  background-color: rgba(50,50,50,1);
+  top: 0px;
+  left: 0px;
+}
+.page9{
+  position: fixed;
+  display: inline-block;
+  height: 100%;
+  width: 100vw;
+  background-color: rgba(50,50,50,1);
+  top: 0px;
+  left: 0px;
+}
+.pMono{
+  position: fixed;
+  display: inline-block;
+  height: 90vh;
+  width: 80vw;
+  background-color: rgba(50,50,50,1);
+  top: 5vh;
+  left: 10vw;
+  box-shadow: 0 0 0px 10px rgba(150,150,150,1);
+  text-align: center;
+}
+.page10{
+  position: fixed;
+  display: inline-block;
+  height: 100%;
+  width: 100vw;
+  background-color: rgba(50,50,50,1);
+  top: 0px;
+  left: 0px;
+}
+.page11{
+  position: fixed;
+  display: inline-block;
+  height: 100%;
+  width: 100vw;
+  background-color: rgba(50,50,50,1);
+  top: 0px;
+  left: 0px;
+}
+.pIdea{
+  position: fixed;
+  display: inline-block;
+  height: 90vh;
+  width: 80vw;
+  background-color: rgba(50,50,50,1);
+  top: 5vh;
+  left: 10vw;
+  box-shadow: 0 0 0px 10px rgba(150,150,150,1);
+  border-radius: 2px;
+}
+.page12{
+  position: fixed;
+  display: inline-block;
+  height: 100%;
+  width: 100vw;
+  background-color: rgba(100,100,100,1);
+  background-image: url('../IMGS/black-paper.png');
+  background-position: center;
+
+  top: 0px;
+  left: 0px;
+}
+
+/*  page1 stuff  */
+.SourceTitle{
+  background-image: url("../IMGS/SourceGuideTitle.svg");
+  width: 80vw;
+  height: 50%;
+  background-size: contain;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 0vh;
+  left: 10vw;
+}
+.BeginButton{
+  background-image: url("../IMGS/BeginButton.svg");
+  width: 80vw;
+  height: 50%;
+  background-position: center top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 10vw;
+}
+.page1container{
+  position: relative;
+  height: 90vh;
+  top: 5vh;
+}
+.svgPage1{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.svgPage1Line{
+  width: 40vw;
+  height: 45vh;
+  stroke-width: 3;
+  stroke: rgba(255,255,255,1);
+}
+
+/*  page2 stuff  */
+.EvaluatingButton{
+  background-image: url("../IMGS/EvaluatingSources.svg");
+  width: 80vw;
+  height: 30vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 10vh;
+  left: 10vw;
+}
+.instructionsParagraph{
+  width: 60vw;
+  left: 20vw;
+  position: relative;
+  font-size: 2vw;
+  text-align: center;
+  color: rgba(200,200,200,1);
+}
+.clickHere{
+  background-image: url("../IMGS/ClickHere.svg");
+  width: 15vw;
+  height: 20vh;
+  top: 20vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 5vw;
+}
+.page2container{
+  position: relative;
+  height: 90vh;
+  margin-top: 15vh;
+  width: 100vw;
+}
+
+/*  page3 stuff  */
+.learnQuestion{
+  background-image: url("../IMGS/WhatResearch.svg");
+  width: 60vw;
+  height: 30vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 20vw;
+}
+.paperLogo{
+  background-image: url("../IMGS/paperLogo.svg");
+  width: 40vw;
+  height: 20vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 30vw;
+}
+.researchInstructions{
+  width: 50vw;
+  text-align: center;
+  font-size: 2vw;
+  position: relative;
+  left:25vw;
+  color: rgba(200,200,200,1);
+}
+.yesButton{
+  width: 10vw;
+  background-image: url("../IMGS/Yes.svg");
+  height: 10vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 40vw;
+  display: inline-block;
+}
+.noButton{
+  width: 10vw;
+  background-image: url("../IMGS/No.svg");
+  height: 10vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 40vw;
+  display: inline-block;
+}
+.page3TextBox{
+  width: 40vw;
+  background-image: url("../IMGS/textbox.svg");
+  height: 12vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 3vhß;
+  position: relative;
+  display: hidden;
+  text-align: center;
+  color: rgba(200,200,200,1);
+  left: 30vw;
+  font-size: 2vw;
+}
+.back{
+  background-image: url("../IMGS/Back.svg");
+  width: 20vw;
+  height: 10vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  display: inline-block;
+  left:10vw;
+  bottom: 0px;
+}
+.p3popup{
+  opacity: 1;
+}
+
+/* Page 4 */
+.P4instructionsParagraph{
+  padding-top: 30vh;
+  width: 50vw;
+  text-align: center;
+  font-size: 3vw;
+  position: relative;
+  left:25vw;
+  color: rgba(200,200,200,1);
+}
+.continue{
+  background-image: url("../IMGS/Continue.svg");
+  width: 20vw;
+  height: 10vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  display: inline-block;
+  left:70vw;
+  bottom: 0px;
+}
+.footerContainer{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 10vh;
+  width: 100vw;
+  display: block;
+  background-color: rgba(100,100,100,1);
+  z-index: 1;
+}
+
+/* page 5 */
+.p5Head{
+  font-size: 7vh;
+  width: 50vw;
+  left: 25vw;
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-top: 5vh;
+}
+.p5text{
+  font-size: 3vh;
+  width: 50vw;
+  left: 25vw;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.p5topicText{
+  font-size: 3vh;
+  position: relative;
+  color: white;
+  display: inline-block;
+  width: 10vw;
+  left: 10vw;
+}
+.boxes{
+  position: relative;
+  background-position: center;
+  left: 35vw;
+  width: 30vw;
+  height: 2vw;
+  text-align: center;
+  display: block;
+  margin-top:1.5vw;
+  margin-bottom:1.5vw;
+  border-radius: 5vw;
+  resize: none;
+}
+.boxes2{
+  position: relative;
+  display: inline-block;
+  width: 30vw;
+  height: 2vw;
+  left: 10vw;
+  text-align: center;
+  margin-top:1.5vw;
+  resize: none;
+  border-radius: 5vw;
+}
+.boxes1{
+  position: relative;
+  height: 2vw;
+  width: 30vw;
+  margin-top: .5vw;
+  margin-bottom: 1vw;
+  left: 35vw;
+  text-align: center;
+  resize: none;
+  border-radius: 5vw;
+}
+.p5Continue{
+  background-image: url("../IMGS/Continue.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 20vh;
+  width: 20vw;
+  left: 40vw;
+}
+
+/* page 6 */
+.boxes3{
+  position: relative;
+  background-position: center;
+  display: inline-block;
+  width: 20vw;
+  height: 2vw;
+  margin-top: 1.5vw;
+  margin-bottom: 0vw;
+  resize: none;
+  border-radius: 5vw;
+  text-align: center;
+  background-color: rgba(230,230,230,1);
+}
+.boxes1-2{
+  position: relative;
+  height: 2vw;
+  width: 30vw;
+  margin-top: .5vw;
+  margin-bottom: 1vw;
+  left: 0vw;
+  text-align: center;
+  resize: none;
+  border-radius: 5vw;
+}
+.selected{
+  background-color: rgba(200,250,200,1);
+}
+.Woohoo{
+  background-image: url("../IMGS/Woohoo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 5vw;
+  width: 30vw;
+  left: 70vw;
+  bottom: 0vh;
+}
+.p6text{
+  font-size: 3vh;
+  width: 50vw;
+  left: 25vw;
+  margin-top: 1.5vw;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.back2{
+  background-image: url("../IMGS/Back.svg");
+  width: 20vw;
+  height: 10vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 5vw;
+  bottom: 0vh;
+}
+.p6Head{
+  font-size: 7vh;
+  width: 50vw;
+  left: 25vw;
+  margin-top: 10vw;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.congratsContinueBox{
+  color: rgba(156,255,143,1);
+  font-size: 3vh;
+  width: 70vw;
+  left: 15vw;
+  position: relative;
+  text-align: center;
+  border-radius: 5vw;
+  border-color: rgba(156,255,143,1);
+  border-width: 5px;
+  border-style: double;
+}
+
+/* page 7 */
+.whyResearch{
+  background-image: url("../IMGS/whyneed.svg");
+  width: 60vw;
+  height: 30vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 20vw;
+  margin-top: 10vh;
+}
+
+/* page 8 */
+.listResearch{
+  width: 50vw;
+  text-align: left;
+  font-size: 2vw;
+  position: relative;
+  left:25vw;
+  color: rgba(200,200,200,1);
+  padding-top: 0px;
+}
+.link{
+  text-decoration: none;
+  color: rgba(143,188,255,1);
+  display: inline;
+  font-weight:bold;
+}
+.goodCriteria{
+  font-size: 2vw;
+  color: rgba(250,250,250,1);
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 0px;
+  padding-top: 1vw;
+}
+.whereResearch{
+  background-image: url("../IMGS/goodresearch.svg");
+  width: 60vw;
+  height: 30vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 20vw;
+  margin-top: 0vh;
+}
+
+/* page 9 */
+.typeContainer{
+  padding-top: 10vw;
+  width: 70vw;
+  left: 15vw;
+  position: relative;
+  text-align: center;
+}
+.typesResearch{
+  width: 30vw;
+  position: relative;
+  padding: 2vw;
+  margin: .25vw;
+  color: rgba(200,200,200,1);
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 2vw;
+  background-color: rgba(100,100,100,1);
+  border-radius: 1vw;
+  vertical-align: middle;
+  z-index: .5;
+}
+.questionContainer{
+  padding-top: 5vw;
+  width: 70vw;
+  left: 15vw;
+  position: relative;
+  text-align: center;
+}
+.qResearch{
+  width: 30vw;
+  position: relative;
+  color: rgba(200,200,200,1);
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 2vw;
+}
+.p9boxes2{
+  background-color: white;
+  border-radius:1vw;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+  display: inline-block;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  font-size: 1.5vw;
+  padding: 0px;
+  width: 20vw;
+  left: 0vw;
+  vertical-align: middle;
+  text-align: center;
+}
+.monoshow{
+  opacity: 1;
+}
+
+/* definitionPages */
+.definition{
+  width: 60vw;
+  left: 10vw;
+  font-size: 2vw;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  position: relative;
+  text-align: center;
+  color: rgba(200,200,200,1);
+}
+.definitionHeader{
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  position: relative;
+  width: 60vw;
+  color: rgba(200,200,200,1);
+  font-size: 3vw;
+  box-shadow: 0px 10px 0px 0px rgba(200,200,200,1);
+  left: 10vw;
+  border-radius: 0px;
+  text-align: center;
+}
+.monoPic1{
+  background-image: url("../IMGS/Monograph1.svg");
+  width: 0;
+  height: 40vh;
+  padding-right:25.5%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-position: center;
+  display: inline-block;
+  left: 5vw;
+}
+.monoPic2{
+  background-image: url("../IMGS/Monograph2.svg");
+  width: 0;
+  height: 40vh;
+  padding-right: 56%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-position: center;
+  display: inline-block;
+  right: 5vw;
+}
+.back3{
+  background-image: url("../IMGS/Back.svg");
+  width: 20vw;
+  height: 10vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  display: block;
+  left:30vw;
+  bottom: 5vh;
+}
+
+/* page 10 */
+.WritingButton{
+  background-image: url("../IMGS/WritingProcess.svg");
+  width: 80vw;
+  height: 30vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 35vh;
+  left: 10vw;
+}
+/* page 11 */
+.nowWhat{
+  background-image: url("../IMGS/NowWhat.svg");
+  width: 60vw;
+  height: 30vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  left: 20vw;
+}
+.sourcesList{
+  font-size: 2vw;
+  color: rgba(200,200,200,1);
+  width: 50vw;
+  text-align: center;
+  left: 20vw;
+  position: relative;
+  padding-bottom: 2vh;
+  vertical-align: middle;
+  display: inline-block;
+}
+.rightArrow{
+  background-image: url("../IMGS/rightArrow.svg");
+  width: 2vw;
+  height: 2vw;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+}
+.leftArrow{
+  background-image: url("../IMGS/leftArrow.svg");
+  width: 2vw;
+  height: 2vw;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+}
+.page11 ul{
+  list-style: none;
+}
+.unchecked{
+  background-image: url("../IMGS/Unchecked.svg");
+  width: 2vw;
+  height: 2vw;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  left: 30vw;
+}
+.checked{
+  background-image: url("../IMGS/Checked.svg");
+  width: 2vw;
+  height: 2vw;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  left: 30vw;
+}
+/* page pIdea */
+.wordMap{
+  background-image: url("../IMGS/wordMap.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 100%;
+  height: 0;
+  padding-top: 27vh;
+  margin-top: 5vh;
+  margin-bottom: 1vh;
+  top: 20vh;
+
+}
+.definition2{
+  width: 50vw;
+  left: 15vw;
+  top: 60vh;
+  font-size: 1.6vw;
+  padding-top: 0vh;
+  padding-bottom: 3vw;
+  position: absolute;
+  text-align: center;
+  color: rgba(200,200,200,1);
+}
+.definition3{
+  width: 70vw;
+  left: 05vw;
+  top: 12vw;
+  font-size: 3vh;
+  padding-top: 0vh;
+  padding-bottom: 3vw;
+  position: absolute;
+  text-align: center;
+  color: rgba(200,200,200,1);
+}
+.pback{
+  background-image: url("../IMGS/Back.svg");
+  width: 20vw;
+  height: 10vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  display: inline-block;
+  left:30vw;
+  bottom: 05vh;
+}
+.deathStar{
+  background-image: url("../IMGS/DSI_hdapproach.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 22vw;
+  height: 0;
+  padding-top: 22vh;
+  margin-top: 5vh;
+  margin-bottom: 1vh;
+  top: 47vh;
+  left: 13vw;
+}
+.luke{
+  background-image: url("../IMGS/luke2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 22vw;
+  height: 0;
+  padding-top: 22vh;
+  margin-top: 5vh;
+  margin-bottom: 1vh;
+  top: 47vh;
+  left: 29.25vw;
+}
+.xwing{
+  background-image: url("../IMGS/x-wingfighter2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 22vw;
+  height: 0;
+  padding-top: 22vh;
+  margin-top: 5vh;
+  margin-bottom: 1vh;
+  top: 47vh;
+  left: 45vw;
+}
+.thermalExhaust{
+  background-image: url("../IMGS/ThermalExhaustPort.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 22vw;
+  height: 0;
+  padding-top: 22vh;
+  margin-top: 5vh;
+  margin-bottom: 1vh;
+  top: 47vh;
+  left: 29.25vw;
+}
+.continueNarrow{
+  background-image: url("../IMGS/Continue.svg");
+  width: 20vw;
+  height: 10vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  display: inline-block;
+  left:30vw;
+  bottom: 05vh;
+}
+
+/*page 12 */
+.p12InstructionsTitle{
+  background-image: url('../IMGS/Instructions.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 10vh;
+  width: 30vw;
+  left: 35vw;
+  position: relative;
+}
+
+/* Arrows */
+.arrowDown{
+  background-image: url("../IMGS/downArrow.svg");
+  width: 49.5vw;
+  height: 10vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+}
+.arrowRight{
+  background-image: url("../IMGS/rightArrow.svg");
+  width: 30vw;
+  height: 10vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  left: 70vw;
+  bottom: 5vh;
+}
+.arrowUp{
+  background-image: url("../IMGS/upArrow.svg");
+  width: 49.5vw;
+  height: 10vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+}
+.arrowLeft{
+  background-image: url("../IMGS/leftArrow.svg");
+  width: 49.5vw;
+  height: 10vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 1074px){
+  .deathStar{
+    top:50vh;
+    width: 15vw;
+    padding-top: 15vh;
+    left: 10vw;
+  }
+  .luke{
+    top: 50vh;
+    width: 15vw;
+    padding-top: 15vh;
+    left: 32.5vw;
+  }
+  .xwing{
+    top: 50vh;
+    width: 15vw;
+    padding-top: 15vh;
+    left: 55vw;
+  }
+  /* .definition3{
+    font-size: 2vh;
+  } */
+}
